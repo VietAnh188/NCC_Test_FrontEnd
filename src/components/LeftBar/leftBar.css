@@ -3,3 +3,12 @@
     height: 935px;
     background-color: #191718;
 }
+
+@media (max-width: 400px) {
+    .leftBar {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+}

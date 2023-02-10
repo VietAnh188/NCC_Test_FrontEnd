@@ -35,3 +35,17 @@
         width: 700px;
     }
 }
+
+@media (max-width: 400px) {
+    .topMainContent h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .topMainContent p {
+        font-size: 10px;
+        height: fit-content;
+        width: 80%;
+        line-height: normal;
+    }
+}

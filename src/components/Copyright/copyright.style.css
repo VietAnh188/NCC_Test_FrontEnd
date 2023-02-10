@@ -42,3 +42,12 @@
         width: 900px;
     }
 }
+
+@media (max-width: 400px) {
+    .copyright {
+        width: 100%;
+        position: unset;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
