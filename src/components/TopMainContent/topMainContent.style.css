@@ -36,6 +36,19 @@
     }
 }
 
+@media (max-width: 800px) {
+    .topMainContent h3 {
+        font-size: 15px;
+    }
+
+    .topMainContent p {
+        width: 80%;
+        font-size: 10px;
+        height: fit-content;
+        line-height: normal;
+    }
+}
+
 @media (max-width: 400px) {
     .topMainContent h3 {
         font-size: 14px;
@@ -43,7 +56,7 @@
     }
 
     .topMainContent p {
-        font-size: 10px;
+        font-size: 12px;
         height: fit-content;
         width: 80%;
         line-height: normal;

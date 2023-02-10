@@ -43,6 +43,16 @@
     }
 }
 
+@media (max-width: 800px) {
+    .copyright {
+        width: 650px;
+    }
+
+    .copyright p {
+        width: 500px;
+    }
+}
+
 @media (max-width: 400px) {
     .copyright {
         width: 100%;

@@ -23,6 +23,31 @@
     line-height: 18.75px;
 }
 
+@media (max-width: 1440px) {
+    .bottomMainContentItem {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 800px) {
+    .bottomMainContentItem {
+        height: fit-content;
+    }
+
+    .bottomMainContentItem h2 {
+        font-size: 12px;
+    }
+
+    .bottomMainContentItem p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .bottomMainContentItem p img {
+        width: 80px;
+    }
+}
+
 @media (max-width: 400px) {
     .bottomMainContentItem {
         width: 100%;

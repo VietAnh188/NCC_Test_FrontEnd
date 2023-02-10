@@ -5,13 +5,19 @@
 
 @media (max-width: 1440px) {
     .bottomMainContent {
-        margin-top: 70px;
+        margin-top: 10px;
     }
 }
 
 @media (max-width: 1360px) {
     .bottomMainContent {
-        margin-top: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .bottomMainContent {
+        margin-top: 20px;
     }
 }
 
