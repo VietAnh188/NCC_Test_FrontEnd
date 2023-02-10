@@ -1,7 +1,7 @@
 .copyright {
     border-top: 1px solid gray;
     height: 79px;
-    width: 100%;
+    width: 1768px;
     display: flex;
     align-items: center;
     position: absolute;
@@ -11,4 +11,34 @@
 .copyright p {
     width: 1510px;
     margin: auto;
+}
+
+@media (max-width: 1700px) {
+    .copyright {
+        width: 1550px;
+    }
+
+    .copyright p {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .copyright {
+        width: 1290px;
+    }
+
+    .copyright p {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .copyright {
+        width: 1210px;
+    }
+
+    .copyright p {
+        width: 900px;
+    }
 }

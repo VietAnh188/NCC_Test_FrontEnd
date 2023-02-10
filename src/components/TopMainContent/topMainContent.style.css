@@ -23,3 +23,15 @@
     line-height: 18.75px;
     align-content: center;
 }
+
+@media (max-width: 1700px) {
+    .topMainContent p {
+        width: 800px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .topMainContent p {
+        width: 700px;
+    }
+}

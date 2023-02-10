@@ -16,3 +16,33 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 1700px) {
+    .mainContent {
+        width: 1550px;
+    }
+
+    .contentContainer {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .mainContent {
+        width: 1290px;
+    }
+
+    .contentContainer {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .mainContent {
+        width: 1210px;
+    }
+
+    .contentContainer {
+        width: 900px;
+    }
+}
