@@ -1,0 +1,14 @@
+.copyright {
+    border-top: 1px solid gray;
+    height: 79px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright p {
+    width: 1510px;
+    margin: auto;
+}

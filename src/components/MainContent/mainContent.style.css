@@ -1,0 +1,18 @@
+.mainContent {
+    width: 1768px;
+}
+
+.contentContainer {
+    width: 1510px;
+    margin: auto;
+}
+
+.contentContainer div {
+    display: flex;
+    justify-content: center;
+}
+
+.logoNCC {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
